@@ -367,3 +367,31 @@ h6 {
   background: #fff;
   padding: 1rem;
 }
+
+/* Officers */
+#officers h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+#officers .officer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+#officers .officer-container img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+#officers .officer-container {
+  background: #fff;
+  padding: 1rem;
+}
+
+#officers .officer-container h2,
+#officers .officer-container p {
+  text-align: center;
+  font-size: 1.2rem;
+}
