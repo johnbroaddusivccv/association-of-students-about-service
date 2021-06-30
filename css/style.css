@@ -207,10 +207,10 @@ h6 {
   font-weight: bold;
 }
 
-/* #main-nav ul li a.current {
+#main-nav ul li a.current {
   background: var(--primary-color);
   color: #fff;
-} */
+}
 
 #main-nav ul li a:hover {
   border-bottom: 1px solid var(--primary-color);
